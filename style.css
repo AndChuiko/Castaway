@@ -214,3 +214,119 @@ font-size: 22px;
 font-weight: 400;
 color: #FFFFFFB2;
 }
+.person .person__container {
+    display: flex;
+    padding-left: 70px;
+    margin-top: 160px;
+  margin-right: 70px;
+}
+.person .container {
+}
+.person .person__text {
+    margin-right: 60px;
+    display: block;
+    align-content: center;
+}
+.person .person__img-arrow {
+}
+.person .person__text-h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #118DA8;
+
+}
+.person .person__text-h2 {
+font-size: 65px;
+font-weight: 400;
+letter-spacing: 2.880000114440918px;
+}
+.person .person__text-p1 {
+font-size: 22px;
+font-weight: 400;
+color: #FFFFFFB2;
+}
+.person .person__text-p2 {
+    font-size: 22px;
+font-weight: 400;
+color: #FFFFFFB2;
+}
+.person .person__image {
+}
+.person .person__img {
+}
+.person .mrg{
+    margin-bottom: 30px;
+}
+.person .person__container:last-child{
+    margin-bottom: 0px;
+}
+.feedback__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-top: 160px;
+  margin-right: 70px;
+  background: #000;
+border-radius: 40px;
+margin-bottom: 0px;
+}
+.container {
+}
+.feedback  .feedback__text {
+    padding: 60px;
+}
+.feedback  .feedback__forms {
+    display: block;
+    align-content: center;
+    padding-right: 60px;
+}
+.feedback .feedback__text-h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #118DA8;
+}
+.feedback .feedback__text-h2{
+    font-size: 65px;
+font-weight: 400;
+letter-spacing: 2.880000114440918px;
+}
+.feedback .feedback__form-1 {    
+    /* height: 50px;
+     width: 100%;
+     border-radius: 10px;
+     outline: none;
+     font-family: inherit;
+     font-size: 18px; */
+}
+.feedback .feedback__form-group{
+    margin-bottom: 20px;   
+}
+.feedback .feedback__input1{
+    width: 522px;
+height: 82px;
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+background: #191919;
+border: 1px solid #191919;
+padding-left: 19px;
+
+}
+.feedback .feedback__form-group input {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFFB2;
+}
+.feedback .feedback__btn{
+text-decoration: none;
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 700;
+COLOR: #FFFFFFB2;
+padding: 9px 19px;
+background: #118DA8;
+border-radius: 5px;
+}
+.feedback .feedback__btn:hover{
+    background: #011b20;
+}
