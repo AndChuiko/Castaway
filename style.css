@@ -305,3 +305,13 @@ border-radius: 5px;
 .feedback .feedback__btn:hover{
     background: #011b20;
 }
+.feedback .feedback__button{
+    padding-bottom: 60px;
+}
+.feedback .feedback_form-1{
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.feedback .feedback_form-2{
+    margin-bottom: 20px;
+}
