@@ -179,7 +179,7 @@ margin-bottom: 0px;
     padding: 40px;
  display: block;
 }
-.episodes .mrg{
+.episodes .mb-30{
     margin-bottom: 30px;
 }
 .episodes .episodes__img-micro{
@@ -254,7 +254,7 @@ color: #FFFFFFB2;
 }
 .person .person__img {
 }
-.person .mrg{
+.person .mb-30{
     margin-bottom: 30px;
 }
 .person .person__container:last-child{
