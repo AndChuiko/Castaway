@@ -443,3 +443,226 @@ border-radius: 5px;
 .footer__nav-item:hover{
     color: var(--color-blue);
 }
+
+@media (max-width:1350px) {
+.comments .container {
+    justify-content: space-evenly;
+}
+}
+
+@media (max-width:1275px) {
+    .main .main__img-polosa  {
+        top: 280px;
+    }
+}
+
+@media (max-width:1115px) {
+    .main .main__img-polosa  {
+        top: 360px;
+    }
+
+    .feedback .feedback__input1{
+        width: auto;
+    }
+}
+
+@media (max-width:1060px) {
+    .main .main__container{
+        display: block;
+        text-align: center;
+    }
+    
+    .main .main__img-polosi{
+        left: 180px;
+    }
+
+    .main .main__text-up_70px {
+        display: block;
+    }
+    .main .main__text-up_75px{
+        text-align: center;
+    }
+
+    .main .main__img-polosa {
+        top: 190px;
+        left: 330px;
+    }
+
+    .episodes .episodes__cards{
+        display: block;
+        text-align: center;
+        
+    }
+
+    .episodes .episodes__cards-tag, .episodes__cards-tag2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer__container{
+        margin: 100px auto 100px 70px;
+    }
+
+    .main .main__img-polosi{
+        display: none;
+    }
+}
+
+@media (max-width:850px) {
+    .feedback .feedback__container{
+        display: block;
+        text-align: center;
+    }
+
+    .feedback .feedback__img-stripes{
+        top: 630px;
+        left: -50px;
+    }
+
+    .feedback .feedback__text{
+        padding: 60px 60px 0px 60px;
+    }
+    .feedback .feedback__forms{
+        padding-right: 0px;
+    }
+
+    .person .person__container{
+        display: block;
+        text-align: center;
+    }
+
+    .footer__container{
+        display: block;
+        text-align: center;
+        margin: auto auto 100px auto;
+    }
+
+    .footer .footer__nav-menu{
+        margin-top: 30px;
+    }
+
+    .footer .footer__right{
+        justify-content: center;
+       
+    }
+
+    .episodes .episodes__title{
+        display: block;
+        text-align: center;
+    }
+
+    .episodes .episodes__button{
+       margin-top: 20px;
+    }
+
+    .footer__nav-li:last-child{
+        margin-bottom: 20px;
+    }
+
+    .main .main__container,.episodes .episodes__container,.main .main__text-listen, .main .main__text-down,.person .person__container,.main .main__image {
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        margin-left: auto;
+    }
+
+    .main .main__img-polosa{
+        left: 240px;
+    }
+
+   .main .main__text,.episodes .episodes__container,.main .main__image,.person .person__container{
+    padding-left: 0px;
+   }
+
+   .feedback .feedback__btn{
+    padding: 15px 60px;
+   }
+
+   .person .person__text{
+    margin-right: 0px;}
+   }
+    
+@media (max-width:650px) {
+    .main .main__img, .person .person__img{
+        width: 100%;
+    }
+
+    .header__container{
+        display: block;
+        text-align: center;
+    }
+
+    .header .header__nav ul{
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .main .main__img-polosa{
+        left: 120px;
+    }
+
+    .feedback .feedback__text-h2{
+        font-size: 45px
+    }
+
+    .feedback .feedback__img-stripes{
+        top: 550px;
+    }
+    }
+
+@media (max-width:490px) {
+        .feedback .feedback__img-stripes,.main .main__img-polosa{
+            display: none;
+        }   
+        .main .main__text-up_70px{
+            font-size: 50px;
+        }
+        .main .main__text-up_75px,.main .main__text-up_75px span,.episodes .episodes__txt,.episodes .episodes__cards-title{
+            font-size: 55px;
+        }
+    }
+
+@media (max-width:431px) {
+        .feedback .feedback__text-h2,.comments .comments_h5{
+            font-size: 30px;
+        }
+
+        .feedback .feedback__form-group input,.comments .comments_h6{
+            font-size: 16px;
+        }
+
+        .comments .comments__card{
+            padding: 15px;
+            text-align: center;
+        }
+
+        .episodes__img-micro,.episodes__img-micro{
+            width: 100%;
+        }
+     
+        .header .header__title{
+            padding-left: 0px;
+            margin-right: 0px;
+        }
+
+        .header .header__nav-item{
+            font-size: 12px;}
+        
+        .header .header__nav-item:last-child{
+            margin-right: 20px;
+        }
+
+        .feedback .feedback__text-h2{
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .comments .comments__card{
+            height: auto;
+        }
+}
+    
+
+       
+
+    
+
