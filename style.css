@@ -282,6 +282,7 @@ color:var(--color-gray);
      background: #000;
     border-radius: 40px;
     margin: 160px 70px 0px 70px;
+    position: relative;
 }
 
 .feedback  .feedback__text {
@@ -353,4 +354,42 @@ border-radius: 5px;
 
 .feedback .feedback_form-2{
     margin-bottom: 20px;
+}
+
+.feedback .feedback__img-stripes{
+    position: absolute;
+    top: 320px;
+    left: -50px;
+} 
+
+.comments .container {
+    margin: 160px 70px 0px 70px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comments .comments__card {
+    background: #000;
+    display: block;
+    padding: 50px 0px 0px 50px;
+    width: 341px;
+    height: 321px;
+    border-radius: 32px;
+    margin-bottom: 16px;
+}
+.comments .comments__card:last-child{
+    margin-bottom: 100px;
+}
+
+.comments .comments_h5{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.comments .comments_h6{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFFB2;
 }
